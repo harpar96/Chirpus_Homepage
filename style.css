@@ -1,0 +1,38 @@
+body {
+    background-color: white; /* Black background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh;
+    color: white; /* White text */
+}
+
+.button-container div {
+    margin-bottom: 10px; /* Space between buttons */
+}
+
+.button-container button {
+    padding: 10px 20px; /* Padding for regular buttons */
+    border: none; /* Remove border */
+    background-color: white; /* Background color for regular buttons */
+    color: black; /* Text color */
+    cursor: pointer; /* Cursor as pointer */
+}
+
+#hire-us-button {
+    display: block; /* Block level element */
+    width: 80%; /* Width for "Hire Us" button */
+    padding: 15px 30px; /* Padding for oval shape */
+    background-color:black; /* Background color for "Hire Us" button */
+    border: none;
+    border-radius: 30px; /* Rounded corners for oval shape */
+    font-size: 18px; /* Font size */
+}
+
+@media (max-width: 600px) {
+    #hire-us-button {
+        width: 90%; /* Increase width on smaller screens */
+    }
+}
