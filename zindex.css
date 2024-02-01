@@ -1,0 +1,20 @@
+.ball {
+    width: 300 px;
+    height: 300 px;
+    border-radius: 100%;
+}
+
+.red {
+    background-color: red;
+    display: none;
+}
+
+.blue {
+    background-color: blue;
+    display: none;
+}
+
+.green {
+    background-color: green;
+    z-index: -1;
+}

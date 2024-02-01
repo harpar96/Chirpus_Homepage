@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+}
+
+a {
+    color: #69696a;
+    font-size: 10 px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+h2 {
+    color: #000;
+    font-size: 12 px;
+}
+
+button {
+    background-color: #000;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+header {
+    border: 1 px solid red;
+}
+
+main {
+    border: 1 px solid blue;
+}
+
+main {
+    padding: 10 px;
+}
+
+h1 {
+    font-size: 24 px;
+}
+
+div {
+    color: #69696a;
+    margin: 20 px 0 px;
+    padding-left: 10 px;
+    border-left: 2 px solid #69696a;
+}
+
+footer {
+    border: 1 px solid green;
+    position: fixed;
+    display: inline;
+    bottom: 0;
+    width: 100%
+}
+
+ul {
+    position: relative;
+}
+
+h4 {
+    position: absolute;
+    display: inline;
+}
+
+footer nav {
+    width: 100%;
+    border: 1 px solid red;
+    padding: auto;
+    text-align: right;
+}
+
+.foot-nav {
+    display: inline;
+    padding-bottom: 13 px;
+}
+
+@media screen and (min-width: 768px) {
+    header, nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    main {
+        width: 50%;
+    }
+
+    /* Circle styles */
+    .large-circle, .medium-circle, .small-circle {
+        display: block;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .large-circle {
+        width: 200px;
+        height: 200px;
+        background-color: rgba(247, 136, 167, 0.6);
+        /* Adjust position */
+    }
+
+    .medium-circle {
+        width: 150px;
+        height: 150px;
+        background-color: rgba(247, 193, 162, 0.7);
+        /* Adjust position */
+    }
+
+    .small-circle {
+        width: 100px;
+        height: 100px;
+        background-color: rgba(207, 130, 213, 0.6);
+        /* Adjust position */
+    }
+}
+
+/* Hide circles in mobile view */
+@media screen and (max-width: 767px) {
+    .large-circle, .medium-circle, .small-circle {
+        display: none;
+    }
+}

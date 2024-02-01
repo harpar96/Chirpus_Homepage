@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: purple;
+    color: white;
+    /* font-family: “sans-serif”; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  li {
+    list-style-type: none;
+  }
+  @media screen and (min-width: 600px) {
+    header {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+    h1 {
+      font-size: 25px;
+    }
+    nav {
+      width: 25%;
+    }
+    ul {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  @media screen and (min-width: 900px) {
+    header {
+      flex-direction: row-reverse;
+    }
+  }  
